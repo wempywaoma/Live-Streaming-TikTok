@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+p {
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240731/pngtree-mystical-flames-a-fiery-expedition-through-cosmic-landscape-of-glowing-stars-image_16118433.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  padding: 20px;
+  text-align: center;
+}
+
+header input {
+  margin-top: 10px;
+  padding: 8px;
+  width: 80%;
+  max-width: 400px;
+  border: none;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-item {
+  flex: 1 1 300px;
+  background-image: url(https://e0.pxfuel.com/wallpapers/833/405/desktop-wallpaper-fire-craft-for-your-mobile-tablet-explore-fire-fire-background-3d-fire-catching-fire-blue-and-red-fire.jpg);
+  background-size: cover;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.sosmed h1 {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.icon {
+  padding: 10px 7%;
+}
+
+.icon a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.icon a:hover {
+  color: rgb(87, 159, 252);
+}
+
+footer {
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/518/681/desktop-wallpaper-cool-3d-fire-fires.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(87, 159, 252);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
